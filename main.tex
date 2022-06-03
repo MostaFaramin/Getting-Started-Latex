@@ -1,0 +1,74 @@
+\documentclass[two column]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}   %This packages is used to move table in the text
+\usepackage{graphics}  % This package is used to enlarge the table 
+\usepackage{amsmath}  % This package is used to create Matrices 
+
+\title{First Template Project}
+\author{Mostafa Faramin\\
+Ph.D Graduate, Babol Noshirvani University of Technology\\
+\texttt{mostafa.faramin@gmail.com}}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction} \label{section.intro} 
+
+Hello World! Like all those people who work in the field of programming languages and begin to learn their career. $x = 2$
+
+\section{Problem Statement} \label{section.prolem}
+
+Problem statement is a part of a paper that usually describes the purpose of the paper and what is the goal of it. Section \ref{section.intro}
+
+\begin{table}[H]
+    \centering
+    \scalebox{1}  % This command is used to enlarge the table 
+    {
+    \begin{tabular}{c|||r|l|c|}
+    \hline
+    Sr. & Column1 & Column2 & Column3 \\
+    \hline
+    1 & Ali1 & Ali1 & Ali1\\
+    2 & Roz1 & Roz2 & Roz3\\
+    \hline
+    3 & Man1 & Man2 & Man3 \\
+    \hline
+    \end{tabular}
+    }
+    \caption{First Table}
+    \label{tab:my_label}
+\end{table}
+
+\subsection{Problem 1} \label{subsection.problem1}
+
+Here we want to state the problem 1. \LaTeX{} is the symbol of latex. 
+
+\begin{equation}
+    x = 2y
+\end{equation}
+
+\begin{equation}
+    f(x,y) = \int{\int{(x^2 + sin(y))} dx} dy
+\end{equation}
+
+\begin{equation}
+A =
+    \begin{bmatrix}
+    1 & 2 & 3\\
+    a & b & c
+    \end{bmatrix}
+\end{equation}
+
+\subsection{Problem 2} \label{subsection.problem2}
+
+Here we want to state the problem 2. 
+
+The term originally referred to messages sent using the Short Message Service (SMS). It has grown beyond alphanumeric text to include multimedia messages using the Multimedia Messaging Service (MMS) containing digital images, videos, and sound content, as well as ideograms known as emoji (happy faces, sad faces, and other icons), and instant messenger applications (usually the term is used when on mobile devices). 
+
+The term originally referred to messages sent using the Short Message Service (SMS). It has grown beyond alphanumeric text to include multimedia messages using the Multimedia Messaging Service (MMS) containing digital images, videos, and sound content, as well as ideograms known as emoji (happy faces, sad faces, and other icons), and instant messenger applications (usually the term is used when on mobile devices). 
+
+The term originally referred to messages sent using the Short Message Service (SMS). It has grown beyond alphanumeric text to include multimedia messages using the Multimedia Messaging Service (MMS) containing digital images, videos, and sound content, as well as ideograms known as emoji (happy faces, sad faces, and other icons), and instant messenger applications (usually the term is used when on mobile devices). 
+
+\end{document}
